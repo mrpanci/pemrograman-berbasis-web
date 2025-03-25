@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gameku.Id - Beranda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .card-body {
+            flex-grow: 1;
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Gameku.Id</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="list-game.html">List Game</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kontak-kami.html">Hubungi Kami</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Game -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Zelda.jpg" class="card-img-top" alt="Zelda">
+                    <div class="card-body">
+                        <h5 class="card-title">Zelda Tears Of the Kingdom</h5>
+                        <p class="card-text">Petualangan epik dengan dunia luas dan mekanik eksplorasi inovatif.</p>
+                        <a href="#" class="btn btn-primary" onclick="return false;">Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="persona 5 royal.jpg" class="card-img-top" alt="Persona 5 Royal">
+                    <div class="card-body">
+                        <h5 class="card-title">Persona 5 Royal</h5>
+                        <p class="card-text">Jelajahi kehidupan ganda sebagai siswa SMA dan Phantom Thief di Tokyo.</p>
+                        <a href="#" class="btn btn-primary" onclick="return false;">Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Mafia2.jpg" class="card-img-top" alt="Mafia II">
+                    <div class="card-body">
+                        <h5 class="card-title">Mafia II</h5>
+                        <p class="card-text">Kisah mendalam tentang kriminalitas dan kehormatan di dunia mafia.</p>
+                        <a href="#" class="btn btn-primary" onclick="return false;">Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="list-game.html" class="btn btn-success">Rekomendasi Game</a>
+            <a href="kontak-kami.html" class="btn btn-success">Tanya Gameku.Id</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
